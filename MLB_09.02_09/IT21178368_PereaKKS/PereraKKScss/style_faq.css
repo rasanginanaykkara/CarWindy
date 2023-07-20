@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swao");
+
+body{
+    background-attachment: fixed;
+    font-family: "Quicksand",sans-serif;
+    background-image: url(../PereraKKSimages/faq_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    width:700px;
+    height:600px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:50px;
+    box-shadow:5px 5px 5px rgba(0,0,0,.3); 
+    
+}
+
+.box .heading{
+    background:#161516;
+    border-radius:7px 7px 0px 0px;
+    padding:20px;
+    color:#fff;
+    text-align:center;
+    font-size:250%;
+}
+
+.faqs{
+    padding:10px 20px 0px 40px;
+    cursor:pointer;
+}
+
+
+details{
+    color: rgb(255, 255, 255);
+    background: #878d911b;
+    padding:15px;
+    border-radius:7px;
+    font-size:15px;
+    letter-spacing:1px;
+}
+
+
+details summary{
+    outline:none;
+}
+
+details:hover {
+    font-size: 20px;
+    transition: 0.5s;
+    color:rgb(234, 234, 96);
+  }
+

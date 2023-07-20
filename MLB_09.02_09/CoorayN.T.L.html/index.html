@@ -1,0 +1,105 @@
+<!DOCTYPE html> <html>
+	<head>
+		<link rel="stylesheet" href="styles/styles.css">
+		<link rel="stylesheet" href="styles/home_styles.css">
+		<title>carWindy</title>
+		
+		<script type="text/javascript" src="scripts/scripts_for_home.js">
+		</script>
+		<script type="text/javascript" src="scripts/basic_script.js">
+		</script>
+	</head>
+	<body onload="initializeContent()">
+		<div class="background"></div>
+		<div id="header_area" class="header">
+			<img src="images/logo.png" id="logo_img">
+			<div id="login_signup_links" class="user_links">
+				<p>
+					<a href="login.html">login</a>
+					|
+					<a href="">sign in</a>
+				</p>
+			</div>
+		</div>
+		<div class="button_panel">
+			<button class="tab_button" id = "home_button" onclick="show('home_content','home_button')">HOME</button>
+			<button class="tab_button" id = "service_button "onclick="">SERVICES</button>
+			<button class="tab_button" id= "cars_button" onclick="show('cars_content','cars_button')">CARS</button>
+			<button class="tab_button" id="what_we_do_button" onclick="">WHAT WE DO</button>
+			<button class="tab_button" id="about_button" onclick="">ABOUT</button>
+		</div>
+		<ul class="breadcrumb">
+			<li><a href="#">Home</a></li>		
+		</ul>
+		
+		<div class="content" id="home_content">
+			<div class="form_area">
+				<div class="form_div">
+					<form class="form">
+						<label for="car_type">Select car type</label>
+						
+						<select id="car_type">							
+							<option value="Four door saloon">Four door saloon</option>;
+							<option value="Sport coupe">Sport coupe</option>;
+							<option value="Family sedan">Family sedan</option>
+							<option value="Convertible">Convertible</option>
+							<option value="Station wagon">Station wagon</option>
+							<option value="Premium">Premium</option>							
+						</select>
+						<br>
+						<label for="pickup_location">Pick up location</label>
+						
+						<select id="pickup_location">
+							<option value="Galle">Galle</option>
+							<option value="Ganemulla">Ganemulla</option>
+							<option value="Dompe">Dompe</option>
+							<option value="Malabe">Malabe</option>
+							<option value="Gampaha">:Gampaha</option>
+						</select>
+						<br>
+						<label for="dropoff_location">Dropoff location</label>
+						
+						<select id="dropoff_location">
+							<option value="Galle">Galle</option>
+							<option value="Ganemulla">Ganemulla</option>
+							<option value="Dompe">Dompe</option>
+							<option value="Malabe">Malabe</option>
+							<option value="Gampaha">:Gampaha</option>
+						</select>
+						<br>
+						<label for="pickup_date">Pick up date and time</label>
+						
+						<input type="date" class="form_date" id="pickup_date">
+						<br>
+						<input type="time" class="form_time">
+						<br>
+						<label for="dropoff_date">drop off date and time</label>
+						
+						<input class="form_date" type="date" id="dropoff_date">
+						<br>
+						<input class="form_time"type="time">
+						<br>
+						<input type="submit" value="Continue reservation process" class="submit_button">
+						<br>
+					</form>
+				</div>
+			</div>
+			
+			<div class="presentation">
+				<img class="presentation_images" id="" src="images/presentation/image_1.png">
+				<img class="presentation_images" id=""src="images/presentation/image_2.png">
+				<img class="presentation_images" id=""src="images/presentation/image_3.png">
+				<img class="presentation_images" id=""src="images/presentation/image_4.png">
+				<div class="slide_possition" id="position_div">					
+				</div>
+				<script>
+					play();
+				</script>
+			</div>
+		</div>
+		<div class="content" id="cars_content">
+		<p>fadsdfsa</p>
+		</div>
+		
+	</body>
+</html>

@@ -1,0 +1,86 @@
+#logo_img {
+  display: inline-block;
+  border: 2px solid white;
+  margin: 8px 8px 8px 8px;
+  height: 50px;
+}
+body {
+  margin: 0;
+  color: #fff;
+  text-decoration: none;
+}
+div.top {
+  display: block;
+  margin-bottom: 45%;
+}
+
+.header {
+  height: 70px;
+  background-color: #333333;
+  margin: 0;
+  padding: 10;
+  position: relative;
+}
+.user_links {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 8px;
+}
+div.user_links a {
+  color: white;
+}
+div.user_links p {
+  color: white;
+}
+.button_panel {
+  display: flex;
+  justify-content: flex-end;
+  height: 45px;
+  padding: 5px 15px 5px 5px;
+  margin-right: 0px;
+}
+.button_panel button {
+  width: 150px;
+  height: 40px;
+  margin-left: 10px;
+  font-weight: 750;
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans,
+    Helvetica Neue, Arial, sans-serif;
+  border: 2px solid #e3e3e3;
+  border-radius: 25px;
+  box-shadow: 5px 5px #b2b2b2;
+}
+.button_panel button.active {
+  box-shadow: none;
+  background-color: #333333;
+  color: #e3e3e3;
+  transform: scale(1.25);
+}
+.button_panel button:hover {
+  box-shadow: none;
+  background-color: #333333;
+  color: #e3e3e3;
+  transform: scale(1.25);
+}
+ul.breadcrumb {
+  list-style: none;
+}
+ul.breadcrumb li {
+  display: inline;
+}
+ul.breadcrumb li + li:before {
+  padding: 5px;
+  color: #909090;
+  content: ">";
+}
+ul.breadcrumb li a {
+  text-decoration: none;
+  color: #909090;
+}
+ul.breadcrumb li a:hover {
+  color: black;
+}
+div.content {
+  width: 100%;
+}

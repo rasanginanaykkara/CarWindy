@@ -1,0 +1,130 @@
+div.presentation{
+	position:relative;
+	float: right;	
+	width: 60%;	
+	aspect-ratio:16/10;
+	margin-top:0px;	
+	overflow: hidden;
+	padding:0px 0px 0px 0px;
+	
+}
+img.presentation_images{
+	
+	width:100%;
+	aspect-ratio:16/9;
+	
+}
+div.presentation img{
+	display: none;
+}
+#incoming_img{
+	width:100%;
+	position: relative;
+	animation-name: incoming;
+	animation-duration: 1500ms;
+}
+#outgoing_img{
+	width:100%;
+	position: relative;
+	animation-name: outgoing;
+	animation-duration: 1800ms;
+}
+img.presentation_images:hover{
+	
+}
+@keyframes incoming{
+	from {right:-1000px;width:10%;}
+	to {right:0px;width:100%}
+	
+}
+@keyframes outgoing{
+	from {right:0px;width:100%}
+	to {right:1000px;width:10%}
+	
+}
+div.slide_possition p{
+	font-size:200px;	
+	margin-bottom: 0px;
+	color: grey;
+}
+#active{
+	color:black;
+}
+div.slide_possition{
+	position:absolute;
+	display:flex;
+	width:100%;	
+	height:30%;
+	bottom:0;
+	
+	align-items:flex-end;
+	justify-content:center;		
+}
+div.form_area{
+	position:relative;
+	float: left;	
+	margin-top:0px;	
+	overflow: hidden;
+	padding:0px 0px 0px 0px;
+	width:40%;
+	
+}
+div.form_div{
+	position:relative;
+	background-color:grey;
+	margin:20px 20px 20px 20px;	
+	border-radius: 40px;
+	padding-top:30px;
+}
+form{
+	
+}
+form.form label{
+	display:block;
+	width:80%;
+	color:white;
+	margin-left: auto;
+	margin-right:auto;
+	font-size:20px;
+	border-radius:25px;
+}
+form.form select{
+	
+	display:block;
+	width:80%;
+	aspect-ratio:32/2;
+	margin-left: auto;
+	margin-right:auto;
+	font-size:16px;
+	border-radius:25px;
+		
+}
+form.form input.form_date{
+	display:block;
+	width:45%;
+	aspect-ratio:32/4;
+	margin-left: auto;
+	margin-right:auto;
+	font-size:16px;
+	border-radius:25px;
+	border:none;
+}
+form.form input.form_time{
+	display:block;
+	width:20%;
+	aspect-ratio:32/10;
+	margin-left:auto;
+	margin-right:auto;
+	
+	font-size:16px;
+	border-radius:25px;
+	border:none;
+}
+form.form input.submit_button{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+	aspect-ratio:32/3;
+	border-radius:10px;
+}

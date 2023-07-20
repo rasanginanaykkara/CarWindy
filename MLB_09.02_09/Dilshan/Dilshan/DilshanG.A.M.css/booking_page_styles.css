@@ -1,0 +1,52 @@
+
+
+#car{
+    display:inline-block;
+    height: 500px;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+#booking_header{
+    display:flex;
+    width: 100%;
+    height: 500px;
+    background-color: var(--mediumGlass);
+
+}
+.spec_sheet{    
+    height:500px;
+    font-size: 30px;
+    
+    display:inline-block;
+}
+.spec_sheet table{
+    height:500px;
+}
+#check_panel{
+    justify-content: center;
+    height:350px;
+    width:400px;    
+    display:inline-block;    
+    
+}
+
+#status{
+    font-size:50px;
+    font-weight: bold;
+    margin: 40px;
+    
+}
+.dateinput{
+    width:300px;
+    font-size: 30px;
+    margin: 40px;
+    
+}
+#sub{    
+    width:300px;
+    font-size:30px;
+    margin: 40px;
+       
+    
+}

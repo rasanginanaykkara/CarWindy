@@ -1,0 +1,71 @@
+#drivers_area{
+    display:inline-block;
+    width:950px;
+    background-color: var(--mediumGlass);
+    height:600px;
+    margin:10px;
+    overflow-y: scroll;
+}
+#driver_details{
+    display: inline-block;
+    width:400px;
+    background-color:blue;
+}
+div.list_item{
+    display:block;
+    position:relative;
+    height: 100px;
+    cursor:pointer;
+    border:2px solid black;
+    border-radius: 50px;
+    margin-top:5px;
+    
+}
+div.list_item img{
+    display:inline-block;
+    height:90px;
+    border-radius: 60px;    
+}
+div.list_item div{
+    display:inline-block;
+    
+}
+div.driver_info{
+     
+    overflow-x:hidden;
+
+    width:800px;   
+    vertical-align: top;
+    height:100px;
+}
+p.driver_name{
+    display:block;
+    width:100%;
+    font-size:20px;
+    font-weight: bold;
+    color:black;
+    text-align: left; 
+    margin:0;  
+}
+p.bio{
+    display:block;
+    width:100%;
+    font-size: 20px;
+    text-align: justify;
+    margin:0;
+}
+#paymentDetails{
+    background-color: beige;
+    padding:20px;
+    display : inline-block;
+    width : 500px;
+    float : right;        
+}
+#paymentDetails span{
+    
+    font-size: 25px;
+}
+#paymentDetails button{
+    width:200px;
+    height: 30px;
+}

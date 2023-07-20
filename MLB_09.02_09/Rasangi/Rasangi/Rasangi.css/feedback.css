@@ -1,0 +1,186 @@
+/*FEEDBACK CSS */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-image: url('../images/car.jpeg');
+}
+
+#feedID{
+  color: black;
+  text-align: center;
+  position: absolute;
+  top: 200px;
+  left: 430px;
+  font-size: 80px;
+  margin-bottom: 40px;
+  font-family: "Courier New", monospace;  
+  text-transform:uppercase;
+  letter-spacing:5px;
+  text-shadow: 5px 15px 25px black;
+  font-weight: bold; 
+
+}
+.feed-back-name{
+  height: fit-content;  
+  margin-bottom: 100px;
+}
+div.feedback{
+  width: 100%;
+  height: 1000px;
+  margin: 0px;
+}
+div.feedback-button{
+  display: block;
+  width: 20%;
+  height:40%;
+  position: relative;
+  top: 260px;
+  left: 50px;
+}
+
+.feedback-background-inner{
+  display: block;
+  padding: 20px;
+}
+
+#feedback_btn2, #feedback_btn1{
+  font-family: "Courier New", monospace;
+  font-size:15px;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  text-shadow: 5px 15px 25px black;
+  font-weight: bold;
+  width: 90%;
+  height: 50px;
+  margin-top: 40px;
+  margin-left: 20px;
+  background-color: gray ; 
+  border-radius: 25px;
+  color: white;
+}
+#feedback_btn2:hover, #feedback_btn1:hover{
+  background-color: black ;  
+}
+
+.textarea{
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  top: 150px;
+}
+.submit_form{
+  width: 150px;
+  height: 40px;
+  border: 1px;
+  font-size: 18px;
+  border-radius: 25px;
+  float: right;
+  margin-right: 50px;
+  margin-top: 20px;
+  position: relative;
+  top: 180px;
+  background-color: greenyellow;
+}
+.submit_form:hover{
+  background-color: yellow;
+}
+.span-feed{
+  margin-left: 10px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: white;
+  font-family: "Arial Black";
+}
+
+#fbacgrd1{
+  display: block;
+  width: 60%;
+  height: 650px;
+  float: right;
+  position: absolute;
+  top: 350px;
+  right: 50px;  
+  background-color:rgba(255,255,255,0.4);
+  box-shadow:rgba(0,0,0,0.5);
+  border:1px solid rgba(255,255,255,0.5);
+  border-radius: 25px;
+  overflow:auto;
+  padding: 50px;
+}
+#fbacgrd2{
+  
+  display: none;
+  width: 60%;
+  height: 650px;
+  position: absolute;
+  top: 350px;
+  right: 50px;
+  float: right;
+  background-color:rgba(255,255,255,0.4);
+  box-shadow:rgba(0,0,0,0.5);
+  border:1px solid rgba(255,255,255,0.5);
+  border-radius: 25px;
+  padding: 50px;
+}
+
+.rate {
+    float: left;
+    margin-left: 40px;
+    height: 46px;
+    padding: 0 10px;
+    margin-top: 10px;
+    margin-bottom: -150px;
+    margin-left: 100px;
+    position: relative;
+    top: 180px;
+    right: 30px;
+    transform: scale(2.0);
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover, .rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+
+  
+.inner-content{ 
+  width: 100%;
+  height: 100%;
+}
+.select{
+  color: #ffc700;
+}
+.notselect{
+  color: white;
+}
+.text_1{
+  width: 300px;
+  position: absolute ;
+  top: 240px;
+  left: 55px;
+  border-radius: 15px;
+  height: 25px;
+  padding: 10px;
+  border: 2px;  
+}

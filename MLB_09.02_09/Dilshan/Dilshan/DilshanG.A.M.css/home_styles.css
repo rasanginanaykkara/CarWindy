@@ -1,0 +1,153 @@
+
+div.presentation{
+	
+	position:relative;
+	float: right;	
+	width: 60%;	
+	aspect-ratio:16/9;
+	margin-right:auto;
+	overflow: hidden;
+	
+	border-radius:15px;
+	margin-top:2%;
+	
+}
+img.presentation_images{		
+	aspect-ratio:16/9;	
+}
+div.presentation img{
+	display: none;
+	width:70%;
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 10%;
+	
+}
+#incoming_img{	
+	
+	animation-name: incoming;
+	animation-duration: 1500ms;
+}
+#outgoing_img{	
+	
+	animation-name: outgoing;
+	animation-duration: 1800ms;
+}
+
+@keyframes incoming{
+	from {right:-1000px;width:10%;}
+	to {right:0px;width:70%}
+	
+}
+@keyframes outgoing{
+	from {right:0px;width:70%}
+	to {right:1000px;width:10%}
+	
+}
+div.slide_possition p{
+	font-size:200px;	
+	margin-bottom: 0px;
+	color: grey;
+}
+#active{
+	 text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+	color:black;
+}
+div.slide_possition{
+	position:absolute;
+	display:flex;
+	width:100%;	
+	height:30%;
+	bottom:0;	
+	align-items:flex-end;
+	justify-content:center;		
+}
+div.form_area{
+	display:flex;
+	
+	position:relative;
+	float: left;	
+	margin:10px;	
+	overflow: hidden;
+	padding:0px 0px 0px 0px;
+	width:35%;
+	border: 3px solid grey;
+	border-radius:20px;
+	
+	
+}
+
+
+form{	
+	width:100%;	
+}
+form.form label{
+	display:block;
+	width:80%;
+	color:white;
+	margin-left: auto;
+	margin-right:auto;
+	font-size:20px;
+	border-radius:25px;
+}
+form.form select{
+	
+	display:block;
+	width:80%;
+	aspect-ratio:32/2;
+	margin-left: auto;
+	margin-right:auto;
+	font-size:16px;
+	border-radius:25px;
+		
+}
+form.form input.form_date{
+	display:block;
+	background-color: rgba(255, 255, 255, 0.1);
+	width:300px;
+	color:white;
+	text-align: center;
+	margin-left: auto;
+	margin-right:auto;
+	font-size:30px;
+	border-radius:25px;
+	border:none;
+}
+
+form.form input.submit_button{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+	aspect-ratio:32/3;
+	border-radius:10px;
+}
+#home_content{
+	position:relative;
+}
+.background_layer{
+	display:flex;
+	vertical-align:middle;
+	width:100%;
+	aspect-ratio:16/6;	
+	background-color:var(--toughGlass);
+}
+#ad{
+	font-size: 40px;
+	color:red;
+}
+#car_type{
+	background-color: rgba(255, 255, 255, 0.1);
+	color:white;
+	font-size: 30px;
+	text-align: center;
+
+}
+#submit_button{
+
+	width:500px;
+	height:50px;
+	font-size:20px;
+}
+
