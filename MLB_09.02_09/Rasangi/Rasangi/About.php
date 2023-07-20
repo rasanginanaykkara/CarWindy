@@ -1,4 +1,5 @@
 <!DOCTYPE html> <html>
+	<!-- head -->
 	<head>
 		<link rel="stylesheet" href="Rasangi.css/styles.css">
 		<link rel="stylesheet" href="Rasangi.css/home_styles.css">
